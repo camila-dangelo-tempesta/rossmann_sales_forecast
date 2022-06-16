@@ -90,10 +90,14 @@ Evaluating forecasts with operations teams
 ## 4. TOP 5 DATA INSIGHTS
 
 **Hypothesis 01:** Stores with larger assortments should sell more
- - *Reply:* **Falso**
- 
- ![]()
+ - *Reply:* **Falso**. The first graph describes the amount of sales by type of assortment, then we have the behavior of the variables over time. And finally a linearity investigation of the extra attribute referring to the assortment variable
 
+<p float="left">
+  <img src="/images/h1.png" width="315" />
+  <img src="/images/h1_1.png" width="315" /> 
+  <img src="/images/h1_2.png" width="315" />
+</p>
+ 
 **Hypothesis 02:** Stores with closer competitors should sell less.
  - *Reply:* **Falso**
  
