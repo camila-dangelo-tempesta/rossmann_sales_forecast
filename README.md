@@ -101,7 +101,7 @@ Evaluating forecasts with operations teams
 **Hypothesis 02:** Stores with closer competitors should sell less.
  - *Reply:* **Falso**
  
- ![]()
+ ![]("/images/h2.png")
 
 **Hypothesis 03:** Stores with longer competitors should sell more.
  - *Reply:* **Falso.** Stores with longer competitors sell less, that is, the more recent they are, the more they sell.
