@@ -126,12 +126,12 @@ The first graph shows the relationship between sales by stores versus competitio
   <img src="/images/h4.png" width="750" />
 </p>
 
-
 **Hypothesis 05:** Stores with more consecutive promotions should sell more
  - *Reply:* **Falso**
 
-![]()
-
+<p float="left">
+  <img src="/images/h4.png" width="750" />
+</p>
 
 ***
 Made By **Camila D'Angelo**
