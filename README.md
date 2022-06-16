@@ -115,7 +115,7 @@ Evaluating forecasts with operations teams
 The first graph shows the relationship between sales by stores versus competition time. Then we have the concentration of sales by stores versus the competition time. And finally, the impact of the competition time variable on the response variable (sales).
  
 <p float="left">
-  <img src="/images/h3.png" width="750" />
+  <img src="/images/h1.png" width="750" />
 </p>
 
 
