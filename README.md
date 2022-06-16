@@ -7,7 +7,9 @@ Rossmann operates over 3,000 drug stores in 7 European countries. Currently, Ros
 
 <div align="center">
 <p float="left">
-  <img src="/images/" width="1000" height="500"/>
+  <img src="/images/rossman.png" width="1000" height="500"/>
+  <img src="/images/rossman_1.png" width="1000" height="500"/>
+  <img src="/images/rossman_2.png" width="1000" height="500"/>
 </p>
 </div>
 
