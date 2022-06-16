@@ -113,7 +113,9 @@ Evaluating forecasts with operations teams
 **Hypothesis 03:** Stores with longer competitors should sell more.
  - *Reply:* **Falso.** Stores with longer competitors sell less, that is, the more recent they are, the more they sell.
  
- ![]()
+ <p float="left">
+  <img src="/images/h3.png" width="750" />
+</p>
 
 **Hypothesis 04:** Stores with longer active promotions should sell more.
  - *Reply* **Falso.** Stores with longer active promotions (extended) sell less after a certain period of promotion. That is, it is profitable for a given time, then we have a fall.
