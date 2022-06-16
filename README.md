@@ -128,7 +128,7 @@ The first graph shows the relationship between sales by stores versus competitio
 
 
 **Hypothesis 05:** Stores with more consecutive promotions should sell more
- - *Reply:* **Falso**. The first chart shows the stores that had both promotion periods (regular and extended). Then we have the stores that only had the regular period.
+ - *Reply:* **Falso**. The first chart shows the stores that only had the regular period. Then we have the stores that had both promotion periods (regular and extended).
 
 <p float="left">
   <img src="/images/h5.png" width="500" />
