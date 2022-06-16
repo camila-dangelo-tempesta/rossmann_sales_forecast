@@ -6,27 +6,28 @@
 
 ***
 
-## 1. Business Problems
+## 1. BUSINESS PROBLEMS
 
 Definition of the Budget for the Renovation of the Stores.
 
- ### 1.0 **Context:**
+ ### 1.1 **Context:**
  
  * CFO asked for a Sales Forecast of the Next 6 weeks from each Store
 
-### 1.1 **Causes:**
+### 1.2 **Causes:**
 
  * Current Sales Prediction showed a lot of Divergence;
  * The Sales Prediction process is based on Past Experiences;
  * All Sales Forecasting is done Manually by Rossmann's 1,115 Stores;
  * Sales visualization is Computer Limited.
 
-### 1.2 **Solution:**
+### 1.3 **Solution:**
 
  * Use Machine Learning to Forecast All Store Sales;
  * Visualization of Sales Predictions can be done by Smartphone;
 
-## 2. Business Assumptions
+
+## 2. BUSINESS ASSUMPTIONS
 
 The motivation for forecasting sales for the next six weeks is to be able to forecast future revenue. This offers several advantages to the CFO and management team members when it comes to planning how the company's net income will be spent:
 
@@ -43,7 +44,8 @@ Evaluating forecasts with operations teams
 - Sales are impacted by promotions and extended promotions
 - Sales are affected by distance from competitors
 
-## 3. Solution Planning
+
+## 3. SOLUTION PLANNING
 
 - [x] **Step 01:** **Data Description**:  My goal is to use statistics metrics to identify data outside the scope of business.
   - Data Dimension
@@ -67,7 +69,10 @@ Evaluating forecasts with operations teams
   - Line filtering
   - Selection of columns
 
-- [x] **Step 04:** Exploratory Data Analysis:Explore the data to find insights and better understand the impact of variables on model learning.
+- [x] **Step 04:** Exploratory Data Analysis:Explore the data to find insights and better understand the impact of variables on model learning. - Line filtering
+  - Univariate Analysis
+  - Bivariate Analysis
+  - Multivariate analysis
 
 - [ ] **Step 05:** Data Preparation
 
@@ -81,16 +86,33 @@ Evaluating forecasts with operations teams
 
 - [ ] **Step 10:**  Deploy Modelo to Production
 
-## 4. Top 3 Data Insights
 
-**Hypothesis 01:**
- - **Reply:**
+## 4. TOP 5 DATA INSIGHTS
 
-**Hypothesis 02:**
- - **Reply:**
+**Hypothesis 01:** Stores with larger assortments should sell more
+ - *Reply:* **Falso**
+ 
+ ![]()
 
-**Hypothesis 03:**
- - **Reply:**
+**Hypothesis 02:** Stores with closer competitors should sell less.
+ - *Reply:* **Falso**
+ 
+ ![]()
+
+**Hypothesis 03:** Stores with longer competitors should sell more.
+ - *Reply:* **Falso.** Stores with longer competitors sell less, that is, the more recent they are, the more they sell.
+ 
+ ![]()
+
+**Hypothesis 04:** Stores with longer active promotions should sell more.
+ - *Reply* **Falso.** Stores with longer active promotions (extended) sell less after a certain period of promotion. That is, it is profitable for a given time, then we have a fall.
+
+![]()
+
+**Hypothesis 05:** Stores with more consecutive promotions should sell more
+ - *Reply:* **Falso**
+
+![]()
 
 
 ***
@@ -99,15 +121,3 @@ Made By **Camila D'Angelo**
 [Portfólio](https://github.com/camila-dangelo-tempesta?tab=repositories)
 
 [LinkeldIn](https://www.linkedin.com/in/camiladangelotempesta/)
-
-
-
-
-
-
-
-
-
-
-
- 
