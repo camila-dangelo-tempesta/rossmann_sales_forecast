@@ -2,6 +2,11 @@
 
 ## Sales Predictions for ROSSMANN Stores
 
+Rossmann operates over 3,000 drug stores in 7 European countries. Currently, Rossmann store managers are tasked with predicting their daily sales for up to six weeks in advance. Store sales are influenced by many factors, including promotions, competition, school and state holidays, seasonality, and locality. With thousands of individual managers predicting sales based on their unique circumstances, the accuracy of results can be quite varied.
+
+
+
+
 ![]()
 
 ***
@@ -99,9 +104,11 @@ Evaluating forecasts with operations teams
 </p>
  
 **Hypothesis 02:** Stores with closer competitors should sell less.
- - *Reply:* **Falso**
- 
- ![]()
+ - *Reply:* **Falso**. The first graph shows the relationship between sales by stores versus the distance between competitors. Where the distance is grouped from 1000 to 1000 meters. Then we have the concentration of sales by stores versus the distance of competitors. And finally, the impact of the distance variable from competitors on the response variable (sales).
+
+<p float="left">
+  <img src="/images/h2.png" width="750" />
+</p>
 
 **Hypothesis 03:** Stores with longer competitors should sell more.
  - *Reply:* **Falso.** Stores with longer competitors sell less, that is, the more recent they are, the more they sell.
