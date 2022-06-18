@@ -80,7 +80,18 @@ Evaluating forecasts with operations teams
   - Bivariate Analysis
   - Multivariate analysis
 
-- [ ] **Step 05:** Data Preparation
+- [x] **Step 05:** Data Preparation
+  - Rescaling
+    - Min-Max Scaler
+    - Robust Scaler
+  - Encoding
+    - One Hot Encoding
+    - Label Encoding
+    - Ordinal Encoding
+  - Response Variable Transformation
+    - Logarithm Transformation
+  - Nature Transformation
+    - Sine and Cosine Transformation
 
 - [ ] **Step 06:** Feature Selection
 
