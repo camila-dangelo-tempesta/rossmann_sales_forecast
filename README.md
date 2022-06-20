@@ -93,7 +93,11 @@ Evaluating forecasts with operations teams
   - Nature Transformation
     - Sine and Cosine Transformation
 
-- [ ] **Step 06:** Feature Selection
+- [x] **Step 06:** Feature Selection
+  - Embedded Methods
+    - Random Forest
+  - Wrapper Methods
+    - Boruta
 
 - [ ] **Step 07:** Machine Learning Modelling
 
