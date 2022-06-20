@@ -115,9 +115,9 @@ Evaluating forecasts with operations teams
 
 <div align="center">
 <p float="left">
-    <img src="/images/h1.png" width="750" height="500"/>
-  <img src="/images/h1_1.png" width="750" height="500"/>
-  <img src="/images/h1_2.png" width="750" height="500"/>
+    <img src="/images/h1.png" width="600" height="500"/>
+  <img src="/images/h1_1.png" width="600" height="500"/>
+  <img src="/images/h1_2.png" width="600" height="500"/>
 </p>
 </div>
 
@@ -126,7 +126,7 @@ Evaluating forecasts with operations teams
 
 <div align="center">
 <p float="left">
-    <img src="/images/h2.png" width="750" height="500"/>
+    <img src="/images/h2.png" width="600" height="500"/>
 </p>
 </div>
 
@@ -136,7 +136,7 @@ The first graph shows the relationship between sales by stores versus competitio
 
 <div align="center">
 <p float="left">
-    <img src="/images/h3.png" width="750" height="500"/>
+    <img src="/images/h3.png" width="600" height="500"/>
  </p>
 </div>
 
@@ -145,7 +145,7 @@ The first graph shows the relationship between sales by stores versus competitio
  
 <div align="center">
 <p float="left">
-    <img src="/images/h4.png" width="750" height="500"/>
+    <img src="/images/h4.png" width="600" height="500"/>
 </p>
 </div>
 
@@ -154,8 +154,8 @@ The first graph shows the relationship between sales by stores versus competitio
 
 <div align="center">
 <p float="left">
-    <img src="/images/h5.png" width="750" height="500"/>
-    <img src="/images/h5_1.png" width="750" height="500"/>
+    <img src="/images/h5.png" width="500" height="400"/>
+    <img src="/images/h5_1.png" width="500" height="400"/>
 </p>
 </div>
 
