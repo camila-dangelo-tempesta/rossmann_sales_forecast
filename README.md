@@ -99,7 +99,14 @@ Evaluating forecasts with operations teams
   - Wrapper Methods
     - Boruta
 
-- [ ] **Step 07:** Machine Learning Modelling
+- [x] **Step 07:** Machine Learning Modelling
+  - Average Model
+  - Linear Regression
+  - Linear Regression Regularized
+  - Random Forest Regressor
+  - XGBoost Regressor
+
+The chosen algorithm was the **XGBoost Regressor**. In addition, I made a performance calibration on it.
 
 - [ ] **Step 08:** Hyperparameter Fine Tunning
 
@@ -159,16 +166,6 @@ The first graph shows the relationship between sales by stores versus competitio
 </p>
 </div>
 
-
-
-
-
-
-Average Model 
-Linear Regression 
-Linear Regression Regularized 
-Random Forest Regressor
-XGBoost Regressor
 ***
 Made By **Camila D'Angelo**
 
