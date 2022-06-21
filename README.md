@@ -100,13 +100,7 @@ Evaluating forecasts with operations teams
     - Boruta
 
 - [x] **Step 07:** Machine Learning Modelling
-  - Average Model
-  - Linear Regression
-  - Linear Regression Regularized
-  - Random Forest Regressor
-  - XGBoost Regressor
-
-The chosen algorithm was the **XGBoost Regressor**. In addition, I made a performance calibration on it.
+  - Machine Learning model training
 
 - [ ] **Step 08:** Hyperparameter Fine Tunning
 
@@ -165,6 +159,34 @@ The first graph shows the relationship between sales by stores versus competitio
     <img src="/images/h5_1.png" width="500" height="400"/>
 </p>
 </div>
+
+***
+## 5. Machine Learning Model Applied
+Tests were made using different algorithms:
+  - Average Model
+  - Linear Regression
+  - Linear Regression Regularized
+  - Random Forest Regressor
+  - XGBoost Regressor
+
+***
+## 6. Machine Learning Modelo Performance
+
+The chosen algorithm was the **XGBoost Regressor**. In addition, I made a performance calibration on it.
+
+#### Precision, Recall, ROC AUC and other metrics
+
+***
+## 7. Business Results
+
+***
+## 8. Conclusions
+
+***
+## 9. Lessons Learned
+
+***
+## 10. Next Steps to Improve
 
 ***
 Made By **Camila D'Angelo**
