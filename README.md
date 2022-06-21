@@ -159,6 +159,16 @@ The first graph shows the relationship between sales by stores versus competitio
 </p>
 </div>
 
+
+
+
+
+
+Average Model 
+Linear Regression 
+Linear Regression Regularized 
+Random Forest Regressor
+XGBoost Regressor
 ***
 Made By **Camila D'Angelo**
 
