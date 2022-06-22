@@ -102,7 +102,8 @@ Evaluating forecasts with operations teams
 - [x] **Step 07:** Machine Learning Modelling
   - Machine Learning model training
 
-- [ ] **Step 08:** Hyperparameter Fine Tunning
+- [x] **Step 08:** Hyperparameter Fine Tunning
+  - Random Search
 
 - [ ] **Step 09:** Convert Model Performance to Business Values
 
