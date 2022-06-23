@@ -7,7 +7,7 @@ Rossmann operates over 3,000 drug stores in 7 European countries. Currently, Ros
 
 <div align="center">
 <p float="left">
-  <img src="/images/rossman_1.jpg" width="1000" height="500"/>
+  <img src="/images/rossman_1.jpg" width="1000" height="350"/>
 </p>
 </div>
 
@@ -102,9 +102,10 @@ Evaluating forecasts with operations teams
 - [x] **Step 07:** Machine Learning Modelling
   - Machine Learning model training
 
-- [ ] **Step 08:** Hyperparameter Fine Tunning
+- [x] **Step 08:** Hyperparameter Fine Tunning
+  - Random Search
 
-- [ ] **Step 09:** Convert Model Performance to Business Values
+- [x] **Step 09:** Convert Model Performance to Business Values
 
 - [ ] **Step 10:**  Deploy Modelo to Production
 
@@ -162,22 +163,49 @@ The first graph shows the relationship between sales by stores versus competitio
 
 ***
 ## 5. Machine Learning Model Applied
+
 Tests were made using different algorithms:
-  - Average Model
-  - Linear Regression
-  - Linear Regression Regularized
-  - Random Forest Regressor
-  - XGBoost Regressor
+
+|                                            | MAE CV	                    | MAPE CV	          | RMSE CV       |
+|--------------------------------------------|----------------------------|-------------------|---------------|
+| Average Model                              | 681.70                     | 0.10              | 1013.08       | 
+| Linear Regression                          | 868.96                     | 0.13              | 1238.55       | 
+| Linear Regression Regularized              | 1354.80                    | 0.46              | 1835.14       |
+| Random Forest Regressor                    | 1867.09                    | 0.29              | 2671.05       | 
+| XGBoost Regressor                          | 1891.70                    | 0.29              | 2744.45       | 
+
+
+
+The chosen algorithm was the **XGBoost Regressor**. In addition, I made a performance calibration on it.
 
 ***
 ## 6. Machine Learning Modelo Performance
 
-The chosen algorithm was the **XGBoost Regressor**. In addition, I made a performance calibration on it.
+The summary below shows the metrics comparison after running a cross validation score with stratified K-Fold with 5 splits in the full data set.
 
-#### Precision, Recall, ROC AUC and other metrics
+|                                            | MAE CV	                    | MAPE CV	               | RMSE CV                    |
+|--------------------------------------------|----------------------------|------------------------|----------------------------|
+| XGBoost Regressor                          |  785\.83 \(\+/\- 125\.56\) | 0\.11 \(\+/\- 0\.01\)  | 1140\.62 \(\+/\- 183\.62\) | 
+| XGBoost Regressor                          | 1421\.42 \(\+/\- 145\.86\) | 0\.2  \(\+/\- 0\.01\)  | 2056\.45 \(\+/\- 199\.67\) | 
+| XGBoost Regressor                          | 1819\.29 \(\+/\- 205\.8\)  | 0\.26 \(\+/\- 0\.01\)  | 2067\.47 \(\+/\- 287\.5\)  |
+| XGBoost Regressor                          |  844\.47 \(\+/\- 143\.03\) | 0\.12 \(\+/\- 0\.01\)  | 1216\.9 \(\+/\- 206\.0\)   | 
+| XGBoost Regressor                          |  815\.46 \(\+/\- 135\.59\) | 0\.12 \(\+/\- 0\.01\)  | 1175\.52 \(\+/\- 196\.88\) | 
+
+
 
 ***
 ## 7. Business Results
+
+Let's recap the pricing model. Below we have the sales forecast for the next 6 weeks, the best and the worst. Thus, translating it to business numbers.
+
+| Scenario	                           | Values                     | 
+|--------------------------------------|----------------------------|
+| predictions                          |  $ 283,814,336.00          | 
+| worst_scenario                       |  $ 283,127,073.91          | 
+| best_scenario                        |  $ 284,501,608.23          | 
+
+This means that  in the **worst business scenario** the portfolio would generate a profit of **\$284.127.073.91** and in the **best scenario \$284.501.608.23**.
+
 
 ***
 ## 8. Conclusions
