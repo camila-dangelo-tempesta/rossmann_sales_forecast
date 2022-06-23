@@ -105,7 +105,7 @@ Evaluating forecasts with operations teams
 - [x] **Step 08:** Hyperparameter Fine Tunning
   - Random Search
 
-- [ ] **Step 09:** Convert Model Performance to Business Values
+- [x] **Step 09:** Convert Model Performance to Business Values
 
 - [ ] **Step 10:**  Deploy Modelo to Production
 
@@ -195,6 +195,17 @@ The summary below shows the metrics comparison after running a cross validation 
 
 ***
 ## 7. Business Results
+
+Let's recap the pricing model. Below we have the sales forecast for the next 6 weeks, the best and the worst. Thus, translating it to business numbers.
+
+| Scenario	                           | Values                     | 
+|--------------------------------------|----------------------------|
+| predictions                          |  $ 283,814,336.00          | 
+| worst_scenario                       |  $ 283,127,073.91          | 
+| best_scenario                        |  $ 284,501,608.23          | 
+
+This means that  in the **worst business scenario** the portfolio would generate a profit of **\$284.127.073.91** and in the **best scenario \$284.501.608.23**.
+
 
 ***
 ## 8. Conclusions
