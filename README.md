@@ -163,19 +163,35 @@ The first graph shows the relationship between sales by stores versus competitio
 
 ***
 ## 5. Machine Learning Model Applied
+
 Tests were made using different algorithms:
-  - Average Model
-  - Linear Regression
-  - Linear Regression Regularized
-  - Random Forest Regressor
-  - XGBoost Regressor
+
+|                                            | MAE CV	                    | MAPE CV	          | RMSE CV       |
+|--------------------------------------------|----------------------------|-------------------|---------------|
+| Average Model                              | 681.70                     | 0.10              | 1013.08       | 
+| Linear Regression                          | 868.96                     | 0.13              | 1238.55       | 
+| Linear Regression Regularized              | 1354.80                    | 0.46              | 1835.14       |
+| Random Forest Regressor                    | 1867.09                    | 0.29              | 2671.05       | 
+| XGBoost Regressor                          | 1891.70                    | 0.29              | 2744.45       | 
+
+
+
+The chosen algorithm was the **XGBoost Regressor**. In addition, I made a performance calibration on it.
 
 ***
 ## 6. Machine Learning Modelo Performance
 
-The chosen algorithm was the **XGBoost Regressor**. In addition, I made a performance calibration on it.
+The summary below shows the metrics comparison after running a cross validation score with stratified K-Fold with 5 splits in the full data set.
 
-#### Precision, Recall, ROC AUC and other metrics
+|                                            | MAE CV	                    | MAPE CV	               | RMSE CV                    |
+|--------------------------------------------|----------------------------|------------------------|----------------------------|
+| XGBoost Regressor                          |  785\.83 \(\+/\- 125\.56\) | 0\.11 \(\+/\- 0\.01\)  | 1140\.62 \(\+/\- 183\.62\) | 
+| XGBoost Regressor                          | 1421\.42 \(\+/\- 145\.86\) | 0\.2  \(\+/\- 0\.01\)  | 2056\.45 \(\+/\- 199\.67\) | 
+| XGBoost Regressor                          | 1819\.29 \(\+/\- 205\.8\)  | 0\.26 \(\+/\- 0\.01\)  | 2067\.47 \(\+/\- 287\.5\)  |
+| XGBoost Regressor                          |  844\.47 \(\+/\- 143\.03\) | 0\.12 \(\+/\- 0\.01\)  | 1216\.9 \(\+/\- 206\.0\)   | 
+| XGBoost Regressor                          |  815\.46 \(\+/\- 135\.59\) | 0\.12 \(\+/\- 0\.01\)  | 1175\.52 \(\+/\- 196\.88\) | 
+
+
 
 ***
 ## 7. Business Results
